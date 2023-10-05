@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Bootstrap w/ Vite</title>
+</head>
+<body>
+<header class="bg-primary container-fluid">
+    <nav class="row justify-content-end p-5 navbar">
+        <ul class="col-6 list-inline d-flex justify-content-end align-items-center nav">
+            <li class="m-3 nav-item">
+                <a class="nav-link active text-white fs-5" href="#">Acheter des livres</a>
+            </li>
+            <li class="m-3 nav-item">
+                <a class="nav-link text-white-50 fs-5" href="#">Consulter des livres</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="brandingWrapper row d-flex justify-content-center align-items-center column-gap-5">
+        <article class="col-9 col-md-6 col-lg-4 m-4">
+            <h1 class="text-white fw-bold pe-lg-5">Acheter des livres, c'est facile</h1>
+            <p class="text-white lh-lg fw-light">Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.</p>
+            <button class="btn btn-light px-4 py-3 text-info fw-bold">Voir nos livres</button>
+        </article>
+        <article class="col-md-4 col-3 d-none d-md-flex m-4 d-flex justify-content-center">
+            <img src="./img/books.png" alt="une pile de livre" class="object-fit-cover w-75 h-100">
+        </article>
+    </section>
+</header>
+<main>
+    <section class="container d-flex justify-content-center flex-direction-column align-items-center">
+        <div class="row w-100 d-flex justify-content-center flex-direction-column align-items-center">
+            <h3 class="col-12 mt-5 text-secondary fw-bold text-center">Consultez les classiques</h3>
+            <div class="col-12 col-md-10 col-lg-6 d-flex justify-content-center">
+                <div class="input-group m-4">
+              <span class="input-group-text" id="basic-addon1">
+                <svg fill="none" height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_3_3635)">
+                    <path clip-rule="evenodd" d="M11.7459 11.7475C11.8504 11.6429 11.9744 11.5599 12.111 11.5033C12.2476 11.4467 12.394 11.4175 12.5418 11.4175C12.6897 11.4175 12.836 11.4467 12.9726 11.5033C13.1092 11.5599 13.2333 11.6429 13.3378 11.7475L17.669 16.0787C17.8801 16.2897 17.9987 16.5758 17.9989 16.8743C17.999 17.1727 17.8805 17.459 17.6696 17.67C17.4586 17.8811 17.1725 17.9998 16.874 17.9999C16.5756 18 16.2893 17.8816 16.0783 17.6706L11.747 13.3394C11.6424 13.2349 11.5594 13.1108 11.5028 12.9742C11.4462 12.8377 11.4171 12.6913 11.4171 12.5434C11.4171 12.3956 11.4462 12.2492 11.5028 12.1126C11.5594 11.976 11.6424 11.852 11.747 11.7475H11.7459Z" fill="#495057" fill-rule="evenodd"/>
+                    <path clip-rule="evenodd" d="M7.3125 13.5C8.12505 13.5 8.92965 13.34 9.68035 13.029C10.4311 12.7181 11.1132 12.2623 11.6877 11.6877C12.2623 11.1132 12.7181 10.4311 13.029 9.68035C13.34 8.92965 13.5 8.12505 13.5 7.3125C13.5 6.49995 13.34 5.69535 13.029 4.94465C12.7181 4.19394 12.2623 3.51184 11.6877 2.93728C11.1132 2.36271 10.4311 1.90695 9.68035 1.596C8.92965 1.28504 8.12505 1.125 7.3125 1.125C5.67147 1.125 4.09766 1.7769 2.93728 2.93728C1.7769 4.09766 1.125 5.67147 1.125 7.3125C1.125 8.95353 1.7769 10.5273 2.93728 11.6877C4.09766 12.8481 5.67147 13.5 7.3125 13.5ZM14.625 7.3125C14.625 9.2519 13.8546 11.1119 12.4832 12.4832C11.1119 13.8546 9.2519 14.625 7.3125 14.625C5.3731 14.625 3.51314 13.8546 2.14178 12.4832C0.770422 11.1119 0 9.2519 0 7.3125C0 5.3731 0.770422 3.51314 2.14178 2.14178C3.51314 0.770422 5.3731 0 7.3125 0C9.2519 0 11.1119 0.770422 12.4832 2.14178C13.8546 3.51314 14.625 5.3731 14.625 7.3125Z" fill="#495057" fill-rule="evenodd"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_3_3635">
+                      <rect fill="white" height="18" width="18"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>
+                    <input aria-describedby="basic-addon1" aria-label="search" class="form-control" placeholder="Rechercher un livre" type="text">
+                </div>
+            </div>
+            <div class="col-12 justify-content-center d-flex d-none d-lg-flex row">
+                <div class="alert alert-warning d-flex align-items-center justify-content-center alert-dismissible px-1 fade show col-lg-6 col-xl-4 m-4" role="alert">
+                    <svg fill="none" height="24" viewBox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_109_50)">
+                            <path d="M8.98201 1.56601C8.88302 1.39358 8.74028 1.25031 8.56821 1.15069C8.39614 1.05106 8.20084 0.998596 8.00201 0.998596C7.80318 0.998596 7.60787 1.05106 7.4358 1.15069C7.26373 1.25031 7.121 1.39358 7.02201 1.56601L0.165007 13.233C-0.291993 14.011 0.256007 15 1.14501 15H14.858C15.747 15 16.296 14.01 15.838 13.233L8.98201 1.56601ZM8.00001 5.00001C8.53501 5.00001 8.95401 5.46201 8.90001 5.99501L8.55001 9.50201C8.53825 9.63978 8.47521 9.76813 8.37336 9.86165C8.27152 9.95517 8.13828 10.0071 8.00001 10.0071C7.86173 10.0071 7.7285 9.95517 7.62665 9.86165C7.52481 9.76813 7.46177 9.63978 7.45001 9.50201L7.10001 5.99501C7.08744 5.86925 7.10135 5.74224 7.14085 5.62218C7.18035 5.50212 7.24456 5.39166 7.32935 5.29792C7.41414 5.20419 7.51762 5.12925 7.63313 5.07794C7.74864 5.02663 7.87361 5.00008 8.00001 5.00001ZM8.00201 11C8.26722 11 8.52158 11.1054 8.70911 11.2929C8.89665 11.4804 9.00201 11.7348 9.00201 12C9.00201 12.2652 8.89665 12.5196 8.70911 12.7071C8.52158 12.8947 8.26722 13 8.00201 13C7.73679 13 7.48244 12.8947 7.2949 12.7071C7.10736 12.5196 7.00201 12.2652 7.00201 12C7.00201 11.7348 7.10736 11.4804 7.2949 11.2929C7.48244 11.1054 7.73679 11 8.00201 11Z" fill="#664D03"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_109_50"><rect fill="white" height="16" width="16"/></clipPath>
+                        </defs>
+                    </svg>
+                    <div class="mx-2">
+                        Attention les frais de port ne sont pas inclus
+                    </div>
+                    <button aria-label="Close" class="bg-transparent border-0" data-bs-dismiss="alert" type="button">&#10005;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="row column-gap-1 d-flex justify-content-center">
+        <article class="col-2 my-5 mx-4 position-relative">
+            <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
+            <p class="badge bg-light text-info position-absolute top-0 end-0 p-2 my-3 mx-4 fw-bold">Best seller</p>
+            <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
+            <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+        </article>
+        <article class="col-2 my-5 mx-4 position-relative">
+            <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
+            <p class="badge bg-light text-info position-absolute top-0 end-0 p-2 my-3 mx-4 m-4 fw-bold">Best seller</p>
+            <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
+            <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+        </article>
+        <article class="col-2 my-5 mx-4 position-relative">
+            <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
+            <p class="badge rounded-pill bg-danger position-absolute top-0 end-0 py-1 px-2 my-3 mx-4 m-4">Rupture de
+                stock</p>
+            <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
+            <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+        </article>
+        <article class="col-2 my-5 mx-4">
+            <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
+            <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
+            <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+        </article>
+        <article class="col-2 my-5 mx-4">
+            <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
+            <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
+            <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+        </article>
+        <article class="col-2 my-5 mx-4">
+            <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
+            <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
+            <p class="fw-bold text-secondary">Les Fleurs du mal</p>
+        </article>
+        <article class="col-2 my-5 mx-4">
+            <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
+            <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
+            <p class="fw-bold text-secondary">Les fleurs du mal</p>
+        </article>
+        <article class="col-2 my-5 mx-4">
+            <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
+            <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
+            <p class="fw-bold text-secondary">Les fleurs du mal</p>
+        </article>
+        <ul class="pagination pagination-md d-flex justify-content-center">
+            <li aria-current="page" class="page-item active rounded bg-primary mx-2">
+                <a class="page-link rounded" href="#">1</a>
+            </li>
+            <li class="page-item mx-2 "><a class="page-link rounded" href="#">2</a></li>
+            <li class="page-item mx-2 "><a class="page-link rounded" href="#">3</a></li>
+            <li class="page-item mx-2 "><a class="page-link rounded" href="#">4</a></li>
+        </ul>
+    </section>
+    <section class="container-fluid bg-primary w-100">
+        <div class="row d-flex justify-content-between align-content-center">
+            <div class="col-6">
+                <img src="./img/book.png" alt="">
+            </div>
+            <div class="col-6 text-white">
+                <h2>Notre best seller</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.</p>
+                <button class="btn btn-light bg-light">Acheter</button>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="container-fluid bg-primary d-flex justify-content-center w-100">
+    <section class="col-6 d-flex justify-content-between my-5 center">
+        <ul class="text-white col list-inline fw-light">
+            <h5>Navigation</h5>
+            <li>News</li>
+            <li>Acheter des livres</li>
+            <li>Consulter des livres</li>
+            <li>Best Sellers</li>
+        </ul>
+        <ul class="text-white col list-inline fw-light">
+            <h5>Aide</h5>
+            <li>Prix</li>
+            <li>Comparer</li>
+            <li>Catalogue</li>
+            <li>Sav</li>
+        </ul>
+        <ul class="text-white col list-inline fw-light">
+            <h5>Informations</h5>
+            <li>Conditions d'utilisation</li>
+            <li>Mentions légales</li>
+        </ul>
+    </section>
+</footer>
+<script src="./js/main.js" type="module"></script>
+</body>
+</html>
