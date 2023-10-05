@@ -6,8 +6,8 @@
     <title>Bootstrap w/ Vite</title>
 </head>
 <body>
-<header class="bg-primary container-fluid">
-    <nav class="row justify-content-end p-5 navbar">
+<header class="bg-primary container-fluid" >
+    <nav class="row justify-content-end d-none d-md-flex p-5 navbar">
         <ul class="col-6 list-inline d-flex justify-content-end align-items-center nav">
             <li class="m-3 nav-item">
                 <a class="nav-link active text-white fs-5" href="#">Acheter des livres</a>
@@ -19,9 +19,9 @@
     </nav>
     <section class="brandingWrapper row d-flex justify-content-center align-items-center column-gap-5">
         <article class="col-9 col-md-6 col-lg-4 m-4">
-            <h1 class="text-white fw-bold pe-lg-5">Acheter des livres, c'est facile</h1>
+            <h1 class="text-white title-style pe-lg-5">Acheter des livres, c'est facile</h1>
             <p class="text-white lh-lg fw-light">Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.</p>
-            <button class="btn btn-light px-4 py-3 text-info fw-bold">Voir nos livres</button>
+            <button class="btn btn-light text-info fw-bold">Voir nos livres</button>
         </article>
         <article class="col-md-4 col-3 d-none d-md-flex m-4 d-flex justify-content-center">
             <img src="./img/books.png" alt="une pile de livre" class="object-fit-cover w-75 h-100">
@@ -29,9 +29,9 @@
     </section>
 </header>
 <main>
-    <section class="container d-flex justify-content-center flex-direction-column align-items-center">
+    <section class="container d-flex justify-content-between flex-direction-column align-items-center">
         <div class="row w-100 d-flex justify-content-center flex-direction-column align-items-center">
-            <h3 class="col-12 mt-5 text-secondary fw-bold text-center">Consultez les classiques</h3>
+            <h3 class="col-8 mx-auto col-md-12 mt-5 text-secondary fw-bold text-center">Consultez les classiques</h3>
             <div class="col-12 col-md-10 col-lg-6 d-flex justify-content-center">
                 <div class="input-group m-4">
               <span class="input-group-text" id="basic-addon1">
@@ -68,47 +68,47 @@
             </div>
         </div>
     </section>
-    <section class="row column-gap-1 d-flex justify-content-center">
-        <article class="col-2 my-5 mx-4 position-relative">
+    <section class="row container-fluid d-flex flex-column flex-md-row justify-content-center">
+        <article class="col-8 col-md-2 mx-auto m-md-5 position-relative">
             <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
             <p class="badge bg-light text-info position-absolute top-0 end-0 p-2 my-3 mx-4 fw-bold">Best seller</p>
             <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
             <p class="fw-bold text-secondary">Les Fleurs du mal</p>
         </article>
-        <article class="col-2 my-5 mx-4 position-relative">
+        <article class="col-8 col-md-2 mx-auto m-md-5 position-relative">
             <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
-            <p class="badge bg-light text-info position-absolute top-0 end-0 p-2 my-3 mx-4 m-4 fw-bold">Best seller</p>
+            <p class="badge bg-light text-info position-absolute d-none d-md-block top-0 end-0 p-2 my-3 mx-4 m-4 fw-bold">Best seller</p>
             <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
             <p class="fw-bold text-secondary">Les Fleurs du mal</p>
         </article>
-        <article class="col-2 my-5 mx-4 position-relative">
+        <article class="col-8 col-md-2 mx-auto m-md-5 position-relative">
             <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
             <p class="badge rounded-pill bg-danger position-absolute top-0 end-0 py-1 px-2 my-3 mx-4 m-4">Rupture de
                 stock</p>
             <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
             <p class="fw-bold text-secondary">Les Fleurs du mal</p>
         </article>
-        <article class="col-2 my-5 mx-4">
+        <article class="col-8 col-md-2 mx-auto m-md-5 d-none d-md-block">
             <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
             <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
             <p class="fw-bold text-secondary">Les Fleurs du mal</p>
         </article>
-        <article class="col-2 my-5 mx-4">
+        <article class="col-8 col-md-2 mx-auto m-md-5 d-none d-md-block">
             <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
             <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
             <p class="fw-bold text-secondary">Les Fleurs du mal</p>
         </article>
-        <article class="col-2 my-5 mx-4">
+        <article class="col-8 col-md-2 mx-auto m-md-5 d-none d-md-block">
             <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
             <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
             <p class="fw-bold text-secondary">Les Fleurs du mal</p>
         </article>
-        <article class="col-2 my-5 mx-4">
+        <article class="col-8 col-md-2 mx-auto m-md-5 d-none d-md-block">
             <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
             <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
             <p class="fw-bold text-secondary">Les fleurs du mal</p>
         </article>
-        <article class="col-2 my-5 mx-4">
+        <article class="col-8 col-md-2 mx-auto m-md-5 d-none d-md-block">
             <img alt="couverture du livre les fleurs du mal" class="w-100" src="./img/book.png">
             <p class="fw-bold text-dark mb-0 mt-2">Baudelaire</p>
             <p class="fw-bold text-secondary">Les fleurs du mal</p>
@@ -122,21 +122,57 @@
             <li class="page-item mx-2 "><a class="page-link rounded" href="#">4</a></li>
         </ul>
     </section>
-    <section class="container-fluid bg-primary w-100">
-        <div class="row d-flex justify-content-between align-content-center">
-            <div class="col-6">
-                <img src="./img/book.png" alt="">
+    <section class="container-fluid bg-primary row w-100 mb-5 h-100 d-flex justify-content-center  align-content-center">
+        <div class="w-100 py-5 d-flex justify-content-center align-content-center row">
+            <div class="d-flex align-content-center justify-content-end h-50 h-md-100 col-12 col-md-6 pe-5 row">
+                <img class="col-10 col-md-4" src="./img/book.png" alt="">
             </div>
-            <div class="col-6 text-white">
-                <h2>Notre best seller</h2>
-                <p>Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.</p>
-                <button class="btn btn-light bg-light">Acheter</button>
+            <div class="d-flex align-content-center align-content-md-start justify-content-center flex-column row text-center text-md-start text-white col-12 mt-5 mt-md-0 col-md-6 p-0 ps-md-5">
+                <h2 class="col-12 col-md-6 fs-1 title-style">Notre best seller</h2>
+                <p class="col-12 col-md-6 mt-3">Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.</p>
+                <button class="btn mx-auto btn-light bg-light mx-md-3 mt-3 col-4 col-md-2">Acheter</button>
             </div>
         </div>
     </section>
+    <section class="row container-fluid d-flex mb-5 pb-5 flex-column justify-content-center align-content-center">
+    <h3 class="col-12 col-md-6 text-center mb-5">Top des ventes</h3>
+    <div class="col-12 col-md-5 offset-md-1">
+        <table class="table table-borderless">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col" class="md-fs-6">Nom</th>
+                <th scope="col" class="md-fs-6 d-none d-md-table-cell">Date de sortie</th>
+                <th scope="col" class="md-fs-6">Disponibilité</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td class="md-fs-6"><p class="text-truncate">Les Fleurs du mal</p></td>
+                <td class="md-fs-6 d-none d-md-table-cell">21/12/2021</td>
+                <td class="badge rounded-pill text-bg-success text-white fs-6">Disponible</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td class="md-fs-6"><p class="text-truncate">Voyage au bout de la nuit</p></td>
+                <td class="md-fs-6 d-none d-md-table-cell">12/08/2020</td>
+                <td class="badge rounded-pill text-bg-danger  text-white fs-6">Rupture</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td class="md-fs-6"><p class="text-truncate">Don Quichotte</p></td>
+                <td class="md-fs-6 d-none d-md-table-cell">05/02/2016</td>
+                <td class="badge rounded-pill text-bg-success text-white fs-6">Disponible</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
 </main>
 <footer class="container-fluid bg-primary d-flex justify-content-center w-100">
-    <section class="col-6 d-flex justify-content-between my-5 center">
+    <section class="col-5 offset-1 d-flex flex-column flex-md-row justify-content-between my-5 center">
         <ul class="text-white col list-inline fw-light">
             <h5>Navigation</h5>
             <li>News</li>

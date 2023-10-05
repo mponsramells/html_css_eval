@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.title-style {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+
+.text-truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 70%;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

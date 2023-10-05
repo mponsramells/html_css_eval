@@ -1,2 +1,13 @@
 @import "variable.scss";
+.title-style{
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+}
+.text-truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+  max-width: 70%;
+}
+
 @import "~bootstrap/scss/bootstrap";
